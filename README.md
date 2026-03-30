@@ -1,16 +1,58 @@
-# React + Vite
+# 🚀 Digital Tools Buying Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview
 
-Currently, two official plugins are available:
+**Digital Tools Buying Website** is a mini e-commerce web application built with React.js. It allows users to browse digital products, add them to a cart, and manage their selections with a smooth and interactive UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The project demonstrates core frontend concepts like dynamic rendering, state management, and component-based architecture.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📝 Description
 
-## Expanding the ESLint configuration
+This project is a simple digital tools marketplace where:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Products are displayed dynamically using JSON data
+* Users can add items to a cart
+* The total price is calculated automatically
+* Users can remove items from the cart
+
+It is designed to be clean, responsive, and user-friendly.
+
+---
+
+## 🛠️ Technologies Used
+
+* **React.js** – Frontend library
+* **JavaScript (ES6+)** – Core logic
+* **Tailwind CSS** – Styling
+* **daisyUI** – UI components
+* **React Toastify** – Notifications
+* **React Icons** – Icons
+* **JSON** – Product data source
+
+---
+
+## ✨ Features
+
+### 🛒 Cart Functionality
+
+* Add items to cart
+* Prevent duplicate items
+* Remove items from cart
+
+### 📊 Dynamic Data Handling
+
+* Products loaded from JSON
+* Dynamic rendering using `map()`
+
+### 💰 Pricing System
+
+* Automatically calculates total price
+* Updates in real-time
+
+
+### 🌐 Live Site
+
+👉 Visit the Live Website:
+🔗 https://digital-tools-khalid-shop.netlify.app/

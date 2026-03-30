@@ -1,18 +1,18 @@
-import React,{useState} from 'react';
+import React,{} from 'react';
 import { toast } from 'react-toastify';
 
 const MainCard = ({ data, carts, setCarts }) => {
-    const [isBuy, setIsBuy] = useState(false);
+    
 
     const handleBuy = () =>{
-        setIsBuy(true);
         const isFound = carts.find(item => item.id === data.id);
         if(isFound){
-            return
+            return ;
         }
         setCarts([...carts,data]);
         toast.success("Item added to card");
     }
+    const isBuy = carts.some(item => item.id === data.id);
 
     return (
         <div>
@@ -40,7 +40,7 @@ const MainCard = ({ data, carts, setCarts }) => {
                             {
                                     isBuy ? <button onClick={handleBuy} className='btn rounded-full px-30 text-white bg-green-500 w-full whitespace-nowrap'>Item Added to Cart</button>: <button onClick={handleBuy} className='btn rounded-full px-30 text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA] w-full'>Buy Now</button>
                             }
-                            
+                             
                         </div>
                     </div>
         </div>
