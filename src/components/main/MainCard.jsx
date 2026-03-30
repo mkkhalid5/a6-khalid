@@ -1,4 +1,5 @@
 import React,{useState} from 'react';
+import { toast } from 'react-toastify';
 
 const MainCard = ({ data, carts, setCarts }) => {
     const [isBuy, setIsBuy] = useState(false);
@@ -9,7 +10,8 @@ const MainCard = ({ data, carts, setCarts }) => {
         if(isFound){
             return
         }
-        setCarts([...carts,data])
+        setCarts([...carts,data]);
+        toast.success("Item added to card");
     }
 
     return (
