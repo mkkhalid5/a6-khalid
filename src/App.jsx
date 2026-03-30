@@ -7,6 +7,7 @@ import Stats from './components/stats/Stats'
 import MainCard from './components/main/MainCard'
 import Cart from './components/cart/Cart'
 import Tabs from './components/Button Tab/Tabs'
+import Steps from './components/steps section/Steps'
 
 const getData = async () =>{
   const res = await fetch("./data.json");
@@ -30,6 +31,7 @@ function App() {
 
       { activeTab === "products" ? <Main dataPromise={dataPromise} carts={carts} setCarts={setCarts} /> : null }
       { activeTab === "cart" ? <Cart carts={carts} setCarts={setCarts} /> : null }
+      <Steps />
     </>
   )
 }

@@ -13,7 +13,7 @@ const Cart = ({ carts, setCarts }) => {
     }
 
     return (
-        <div className='max-w-7xl mx-auto p-10 gap-6 shadow-lg border rounded-lg border-zinc-100 overflow-hidden  mb-10'>
+        <div className='max-w-md md:max-w-4xl lg:max-w-7xl mx-auto p-10 gap-6 shadow-lg border rounded-lg border-zinc-100 overflow-hidden  mb-10'>
             <h2 className="font-bold">Your Cart</h2>
             <div className='space-y-5 mt-4'>
                 {

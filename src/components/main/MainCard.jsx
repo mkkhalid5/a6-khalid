@@ -14,7 +14,7 @@ const MainCard = ({ data, carts, setCarts }) => {
 
     return (
         <div>
-            <div className='shadow-lg rounded-lg border overflow-hidden border-zinc-300 p-6 space-y-4'>
+            <div className='shadow-lg rounded-lg border overflow-hidden border-zinc-300 p-6 space-y-7 hover:-translate-y-3 transition duration-300'>
                         <div className='flex justify-between'>
                             <img className='w-8 h-8' src={data.icon} alt="" />
                             {
@@ -28,15 +28,17 @@ const MainCard = ({ data, carts, setCarts }) => {
                             <p className='text-[#627382]'>Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.</p>
                             <p className='text-[#627382]'><span className='text-[#101727] font-bold'>${data.price}</span>/Mo</p>
                             <div>
-                                <p className='text-[#627382]'>Unlimited AI generations</p>
-                                <p className='text-[#627382]'>Unlimited AI generations</p>
-                                <p className='text-[#627382]'>Unlimited AI generations</p>
-                            </div>
-                            <button onClick={handleBuy} className='btn rounded-full px-30 text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA]'>
+                               
                                 {
-                                    isBuy ? "Buyed" : "Buy Now"
+                                    data.features.map(d => (
+                                        <p><i class="fa-solid fa-check text-green-500 "></i>{d}</p>
+                                    ))
                                 }
-                            </button>
+                            </div>
+                            {
+                                    isBuy ? <button onClick={handleBuy} className='btn rounded-full px-30 text-white bg-green-500 w-full whitespace-nowrap'>Item Added to Cart</button>: <button onClick={handleBuy} className='btn rounded-full px-30 text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA] w-full'>Buy Now</button>
+                            }
+                            
                         </div>
                     </div>
         </div>
