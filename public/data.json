@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "AI Resume Builder",
+    "description": "Create professional resumes in minutes\nOptimized for ATS systems",
+    "price": 9,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+  },
+  {
+    "id": 2,
+    "name": "Social Media Post Generator",
+    "description": "Generate engaging posts instantly\nSupports all major platforms",
+    "price": 5,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["AI captions", "Hashtag suggestions", "Multi-platform export"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1384/1384060.png"
+  },
+  {
+    "id": 3,
+    "name": "Website UI Kit",
+    "description": "Ready-to-use modern UI components\nBuilt with Tailwind CSS",
+    "price": 19,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["200+ components", "Responsive design", "Easy customization"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1055/1055687.png"
+  },
+  {
+    "id": 4,
+    "name": "Startup Idea Generator",
+    "description": "Get unique business ideas daily\nAI-powered suggestions",
+    "price": 0,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Daily ideas", "Market insights", "Niche targeting"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828884.png"
+  },
+  {
+    "id": 5,
+    "name": "Portfolio Builder",
+    "description": "Build stunning developer portfolios\nNo coding required",
+    "price": 12,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Drag & drop editor", "Custom domains", "SEO optimized"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/2920/2920277.png"
+  },
+  {
+    "id": 6,
+    "name": "Email Marketing Toolkit",
+    "description": "Automate your email campaigns\nIncrease conversions easily",
+    "price": 15,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Email templates", "Automation flows", "Analytics dashboard"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/561/561127.png"
+  },
+  {
+    "id": 7,
+    "name": "Logo Maker Pro",
+    "description": "Design logos in seconds\nAI-powered branding tool",
+    "price": 7,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Instant logo generation", "High-res export", "Brand kits"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/3132/3132693.png"
+  },
+  {
+    "id": 8,
+    "name": "Code Snippet Manager",
+    "description": "Organize and reuse your code snippets\nBoost productivity",
+    "price": 4,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Cloud sync", "Search & filter", "Multi-language support"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1006/1006363.png"
+  }
+]
