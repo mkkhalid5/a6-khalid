@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-      <NavBar carts={carts} />
+      <NavBar carts={carts} setCarts={setCarts} />
 
       <Banner />
 
